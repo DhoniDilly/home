@@ -1,0 +1,965 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section {
+    width: 100%;
+    /*min-height: auto;*/
+    overflow: hidden;
+}
+.panner_section {
+    height: 85vh;
+    background-color: aquamarine;
+    background: url(images/1.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-position: 50% 50%;
+    overflow: hidden;
+}
+.panner_inner {
+    height: 90%;
+}
+.panner_inner_sectiom {
+    height: 100%;
+}
+.panner_inner_left {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: flex-end;
+}
+.panner_inner_left img {
+    width: 110%;
+    height: 110%;
+    object-fit: contain;
+    transform: translateY(100px);
+}
+.panner_inner_right {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.panner_inner_right h1 {
+    font-size: 50px;
+    letter-spacing: 1px;
+    width: 60%;
+    line-height: 60px;
+    font-weight: 800;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.panner_inner_right p {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    width: 80%;
+    line-height: 30px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.panner_btn {
+    text-decoration: none;
+    font-size: 18px;
+    border: 2px solid black;
+    padding: 18px 50px 18px 50px;
+    margin-left: 40px;
+    color: black;
+    transition: all 0.5s;
+}
+.panner_btn:hover {
+    background-color: black;
+    color: white;
+}
+.panner_inner_right h2 {
+    font-size: 16px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+/**********Home_Repairs_section**************/
+
+/* .Home_Repairs_section {
+    height: 95vh;
+}
+.Home_Repairs_inner {
+    height: 100%;
+    border: 1px solid black;
+}
+.Home_Repairs_inner_row {
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Home_Repairs_inner_row h1 {
+    font-size: 50px;
+    letter-spacing: 1px;
+    line-height: 60px;
+    font-weight: 800;
+    text-align: center;
+    width: 70%;
+    margin: 30px auto;
+}
+.Home_Repairs_inner_row p {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    width: 55%;
+    line-height: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: 0px auto;
+}
+.Home_Repairs_inner_row_cards {
+    border: 1px solid black;
+    height: 60%;
+} */
+.Home_Repairs {
+    height: 90vh;
+    background-color: #292D33;
+}
+.Home_Repairs_inner {
+    height: 100%;
+}
+.Home_Repairs_inner h1 {
+    font-size: 50px;
+    letter-spacing: 1px;
+    line-height: 60px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 40px;
+    width: 70%;
+    margin: 0px auto;
+    color: white;
+}
+.Home_Repairs_inner p {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    width: 55%;
+    line-height: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: white;
+}
+.Home_Repairs_inner_row_cards {
+    height: 60%;
+}
+/* .card_details img {
+    width: 90%;
+    height: 40%;
+    border-radius: 50%;
+    border: 5px solid #FFCA01;
+} */
+.card_0 {
+    height: 90% !important;
+    align-items: center;
+    border-radius: 20px !important;
+    padding-top: 20px
+}
+.card img {
+    width: 200px;
+    height: 200px !important;
+    object-fit: fill;
+    border-radius: 50%;
+    border: 10px solid #FFCA01;
+}
+.card_heading {
+    font-size: 15px !important;
+    font-weight: 800;
+    color: #292D33 !important;
+}
+.card_page {
+    font-size: 14px !important;
+    width: 100% !important;
+    font-style: italic;
+    line-height: 25px !important;
+    color: #292D33 !important;
+}
+.Home_Repairs_inner_row_cards_box {
+    height: 100%;
+    margin: 20px auto !important;
+}
+.link_text {
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+/**********Professional_Services****************/
+
+.Professional_Services {
+    height: 75vh;
+    background-color: #FFCA01;
+}
+.Professional_Services_inner {
+    height: 100%;
+}
+.Professional_Services_inner_left, .Professional_Services_inner_right {
+    height: 100%;
+}
+.Professional_Services_inner_left_right {
+    display: flex !important;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.Professional_Services_inner_left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Professional_Services_inner_left_right h1 {
+    font-size: 40px;
+    font-weight: 800;
+    width: 60%;
+    padding-bottom: 20px;
+    padding-left: 35px;
+}
+.Professional_Services_inner_left_right p {
+    font-size: 20px;
+    font-weight: 500;
+    width: 60%;
+    line-height: 30px;
+    opacity: 0.9;
+    padding-left: 35px;
+    padding-bottom: 20px;
+}
+.Professional_Services_inner_left_right ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+    height: 50px;
+}
+.Professional_Services_inner_left_right ul li {
+    list-style: none;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.Professional_Services_inner_left_right h5 {
+    font-size: 17px;
+    color: rgb(13, 12, 12);
+    font-style: italic;
+    padding-left: 35px;
+}
+
+/************Home_Repair_Services******************/
+
+.Home_Repair_Services {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.Home_Repair_Services_row {
+    height: auto;
+    margin-top: 20px !important;
+    margin-bottom: 20px;
+}
+.Home_Repair_Services h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.Home_Repair_Services_inner {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card1 {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 0px !important;
+    padding: 0px !important;
+    overflow: hidden;
+    border: none !important;
+    padding-bottom: 20px !important;
+}
+.card1 img {
+    border: none !important;
+    width: 30px;
+    height: 30px !important;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.line {
+    height: 6px;
+    width: 100%;
+    background-color: #FFCA01;
+    margin-left: 10px;
+}
+.card1 h5 {
+    font-size: 24px !important;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card1 p {
+    line-height: 30px;
+}
+.center_btn {
+    margin-top: 40px;
+}
+
+/*********our_services*************/
+
+.our_services {
+    height: 70vh;
+    background: url(images/t4.png);
+    background-position: 10% 10%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.our_services h1 {
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.our_services_inner {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.our_services_row {
+    height: 90%;
+}
+.our_services_card {
+    height: 100%;
+    border-radius: 10px;
+    background-color: #f4f0f0;
+}
+.our_services_card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #FFCA01;
+    padding: 15px 15px 15px 15px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.our_services_card h5 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.our_services_card p {
+    font-size: 16px;
+    width: 90%;
+    padding-left: 30px;
+}
+.our_services_card a {
+    margin-left: 30px;
+    border-bottom: 2px solid #FFCA01;
+    border-radius: 0px !important;
+    transition: all 0.3s;
+    padding: 0px !important;
+    padding-top: 20px !important;
+}
+.our_services_card a:hover {
+    border-bottom: 2px solid #292D33;
+}
+
+/**********inside_section**************/
+
+.inside_section {
+    background-color: #FFCA01;
+    height: 60vh;
+    margin-bottom: 80px;
+}
+.inside_section_inner {
+    height: 100%;
+}
+.inside_section_inner_row {
+    height: 100%;
+}
+.inside_section_inner_left {
+    height: 100%;
+}
+.inside_section_inner_right {
+    height: 100%;
+}
+.inside_section_inner_left h1 {
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.inside_section_inner_left p {
+    font-size: 18px;
+    line-height: 35px;
+    padding-bottom: 20px;
+}
+.inside_section_inner_left h3 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-style: italic;
+    padding-bottom: 50px;
+}
+.inside_section_inner_left_btn {
+    text-decoration: none;
+    font-size: 18px;
+    border: 2px solid black;
+    padding: 18px 50px 18px 50px;
+    color: black;
+    transition: all 0.5s;
+}
+.inside_section_inner_right img {
+    width: 130%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*.............send_message_section.............*/
+
+.send_message_section {
+    height: 1040px;
+}
+.send_message_sectin_inner_card {
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    animation-delay: 2s;
+}
+.send_message_section_inner h1 {
+    font-size: 55px;
+    margin: 60px 285px;
+}
+.send_message_sectin_inner_card_box {
+    height: 644px;
+    width: 550px !important;
+}
+.send_message_section_card img {
+    height: 399px;
+    width: 100%;
+    object-fit: contain;
+}
+.send_message_section_card p {
+    font-size: 16px;
+    margin: 20px 0px 0px;
+    padding-bottom: 30px;
+}
+.send_message_section_card h5 {
+    font-size: 30px;
+    margin: 20px 248.156px 0px 0px;
+    width: 100%;
+}
+.send_btn {
+    font-size: 16px !important;
+    background-color: #FFCA01 !important;
+    color: #111111 !important;
+    padding: 14px 30px 15px !important;
+    border-radius: 0px !important;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 20x 270.188px 0px 0px !important;
+    transition: all 0.3s !important;
+}
+.send_btn:hover {
+    background-color: #111111 !important;
+    color: white !important;
+}
+.send_message_section_inner hr {
+    margin-top: 40px;
+}
+.send_msg_paragraph {
+    margin: 30px 195px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/**********professional_service*************/
+
+.professional_service {
+    height: 660px;
+    background-color: #292D33;
+}
+.professional_service_inner_cards {
+    height: 434px;
+}
+.professional_service_inner h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 55px;
+    color: white;
+    font-weight: 700;
+}
+.professional_service_inner p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.professional_cards {
+    background-color: white;
+    border-radius: 20px !important;
+    border-top: 10px solid #FFCA01;
+    height: 100%;
+}
+.professional_cards .card-body h5 {
+    font-size: 24px;
+    color: black;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.professional_cards .card-body p {
+    font-size: 16px;
+    color: black;
+    padding-left: 20px;
+    line-height: 30px;
+    text-align: left;
+    margin: 20px 20.5px 0px 0px;
+}
+.right_direction_icon {
+    font-size: 40px !important;
+    background-color: #FFCA01;
+    padding: 25px 25px 25px 25px;
+    border-radius: 50%;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+/*********service_experts*************/
+
+.service_experts {
+    height: 782px;
+}
+.service_experts_inner {
+    height: 100%;
+}
+.service_experts_inner_left, .service_experts_inner_right {
+    height: 100%;
+    padding: 0px !important;
+}
+.service_experts_inner_right img {
+    width: 100% !important;
+    height: 100%;
+    object-fit: cover;
+}
+.service_experts_inner_left h1 {
+    font-size: 45px;
+    font-weight: 800;
+    margin: 30px 120px 0px 90px;
+    padding-top: 30px;
+}
+.link_text1 {
+    font-size: 17px;
+    color: rgb(9, 9, 9);
+    text-align: left;
+    font-style: italic;
+    margin: 30px 120px 0px 90px;
+    padding-bottom: 20px;
+}
+.service_experts_inner_left ul {
+    margin: 30px 0px 0px 60px;
+}
+.service_experts_inner_left ul li {
+    list-style: none;    
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+.service_experts_inner_left ul li i {
+    padding-right: 20px;
+}
+.service_experts_inner_left ul li:last-child {
+    padding-bottom: 70px;
+}
+.s_e_btn {
+    margin: 30px 0px 0px 90px;
+}
+
+/*********social_media_section*************/
+
+.social_media_section {
+    height: 500px;
+    background-color: #292D33;
+}
+.social_media_section_inner {
+    height: 100%;
+}
+.social_media_section_inner_box {
+    height: 100%;
+}
+.social_media-section_inner_cards {
+    height: 100%;
+}
+.social_media_cards {
+    height: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.social_media_cards h5 {
+    font-size: 24px;
+    color: white;
+    font-weight: 700px;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.social_media_cards h5 img {
+    width: 64px;
+    height: 64px;
+}
+.social_media_cards p {
+    font-size: 18px;
+    color: white;
+    font-weight: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.social_media_cards input {
+    width: 90%;
+    padding: 20px 20px 20px 20px;
+    border-radius: 45px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+.social_media_cards button {
+    width: 90%;
+    padding: 20px 20px 20px 20px;
+    border-radius: 45px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    background-color: #FFCA01;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+}
+
+/*********footer_section*********/
+
+.footer_section {
+    height: 250px;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer_section p {
+    font-size: 14px;
+    color: rgb(215, 214, 214);
+    letter-spacing: 0.5px;
+}
+.footer_section p a {
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+@media only screen and (max-width:500px) {
+    .panner_section {
+        height: auto;
+        padding-bottom: 40px;
+    }
+    .Home_Repairs {
+        height: auto;
+        padding-bottom: 30px;
+        padding-top: 20px;
+    }
+    .card  {
+        padding-top: 20px;
+        margin: 0px auto;
+    }
+    .Home_Repairs_inner_row_cards_box {
+        width: 80% !important;
+    }
+    .Home_Repairs_inner_row_cards_box {
+        height: auto;
+    }
+    .Home_Repairs_inner h1 {
+        font-size: 26px;
+        width: 90%;
+        line-height: 35px;
+    }
+    .Home_Repairs_inner p {
+        width: 80%;
+        font-size: 18px;
+    }
+    .Professional_Services {
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .Professional_Services_inner_left_right h1 {
+        font-size: 30px;
+        width: 90%;
+        padding-top: 40px;
+    }
+    .professional_cards {
+        height: 660px !important;
+    }
+    .Professional_Services_inner_left_right p {
+        width: 90%;
+    }
+    .Professional_Services_inner_left_right ul {
+        width: 70% !important;
+    }
+    .our_services {
+        height: auto;
+        background-repeat: no-repeat;
+        background-position: 80% 0%;
+    }
+    .our_services_card {
+        width: 70%;
+        margin: 0px auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .our_services_row_box {
+        margin-top: 30px;
+        margin-bottom: 30px !important;
+    }
+    .inside_section {
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .inside_section_inner_left {
+        padding-bottom: 60px;
+    }
+    .inside_section_inner_right {
+        overflow: hidden;
+    }
+    .inside_section_inner_left h1 {
+        padding-top: 30px;
+    }
+    .inside_section_inner_left h1, .inside_section_inner_left p, .inside_section_inner_left h3 {
+        padding-left: 30px;
+    }
+    .inside_section_inner_left_btn {
+        margin-left: 30px;
+    }
+    .send_message_section {
+        height: 1660px;
+    }
+    .send_message_section h1 {
+        font-size: 30px;
+        margin: 60px 0px 0px;
+        text-align: center;
+    }
+    .send_msg_paragraph {
+        font-size: 14px;
+        margin: 30px 0px 0px;
+        text-align: center;
+    }
+    .send_message_sectin_inner_card {
+        height: auto;
+    }
+    .professional_service {
+        height: 300vh;
+    }
+    .professional_service_inner {
+        height: 90%;
+    }
+    .professional_service_inner_cards {
+        height: 100% !important;
+    }
+    .professional_cards {
+        overflow: hidden;
+    }
+    .professional_service_inner_cards_box {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        height: 490px;
+        margin: 0px 0px 30px 40px;
+    }
+    .professional_service_inner h1 {
+        font-size: 30px;
+    }
+    .professional_service_inner p {
+        font-size: 20px;
+        width: 80%;
+        text-align: center;
+        margin-left: 40px;
+        padding-bottom: 20px;
+    }
+    .professional_cards {
+        width: 80% !important;
+        padding-top: 50px !important;
+    }
+    .right_direction_icon {
+        margin-top: 80px;
+    }
+    .right_direction_icon {
+        margin-right: 20px;
+        margin-bottom: 40px;
+    }
+    .service_experts {
+        height: auto;
+    }
+    .service_experts_inner_left {
+        margin-bottom: 70px;
+    }
+    .service_experts_inner_right {
+        height: 750px !important;
+        width: 100%;
+    }
+    .service_experts_inner h1 {
+        font-size: 40px;
+        margin: 50px 70px 0px 90px;
+        line-height: 50px;
+    }
+    .service_experts_inner_left, .service_experts_inner_right {
+        height: 100%;
+        padding: 0px !important;
+    }
+    .social_media_section {
+        height: auto;
+        background-color: #292D33;
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+    .social_media_section_inner {
+        height: auto;
+    }
+}
+
+/*************lab_top_display_size******************/
+
+
+@media only screen and (min-width:1200px) {
+    .Home_Repairs {
+        height: auto !important;
+        padding-bottom: 30px;
+        padding-top: 20px;
+    }
+    .card_0 {
+        width: 100% !important;
+    }
+    .Home_Repairs_inner_row_cards_box  {
+        height: auto;
+    }
+   .inside_section_inner_right {
+    overflow: hidden;
+   }
+   .inside_section {
+    height: auto;
+   }
+   .service_experts_inner h1 {
+    font-size: 40px;
+    margin: 50px 90px 0px 90px;
+    line-height: 50px;
+   }
+   .Professional_Services_inner_left_right h1 {
+    width: 70%;
+   }
+   .Professional_Services_inner_left_right p {
+    width: 70%;
+   }
+}
+
+
+@media only screen and (min-width:992px) {
+    .Home_Repairs {
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .Home_Repairs_inner {
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    } 
+    .Home_Repairs_inner_row_cards {
+        height: auto;
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+    .Home_Repairs_inner_row_cards_box {
+        height: 500px;
+    }
+    .card {
+        height: 100% !important;
+    }
+    .Professional_Services {
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .Professional_Services_inner_left_right h1 {
+        width: 100%;
+    }
+    .Professional_Services_inner_left_right p {
+        width: 100%;
+    }
+    .Professional_Services_inner_left_right ul {
+        width: 80%;
+    }
+    .our_services {
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .our_services_card {
+        padding-bottom: 40px;
+    }
+    .inside_section {
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    .inside_section_inner {
+        height: auto !important;
+        padding-bottom: 20px;
+    }
+    .inside_section_inner_row {
+        height: auto !important;
+    }
+    .send_message_section {
+        height: auto;
+        border-bottom: 90px;
+    }
+    .send_message_sectin_inner_card {
+        height: auto;
+    }
+    .professional_service {
+        height: auto;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .professional_service_inner_cards {
+        height: auto
+    }
+    .right_direction_icon {
+        margin-bottom: 30px;
+    }
+}
